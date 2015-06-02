@@ -1,12 +1,7 @@
-# cannaudit
-open source library and app that satisfies Oregon "Seed to Sale Tracking system" to be known as “The System”
-
-I have added the RFP documents.
-
-Background:
-In 2014 the voters of Oregon elected to legalize recreational marijuana. Oregon has a Medical Marijuana program that has been around for a long time.  To satisfy federal rules, cannabis should be audited.  At this time the Oregon Medical Marijuana only has limited auditing.  The goal is to create a system that can audit both recreational and medical marijuana, but according to measure 91 the medical  marijuana program is not changed.  This creates a problem of how to audit the medical program. The powers that be want to get rid of the medical program and just collect taxes.  
-
-I propose using cryptography and economics to encourage the medical growers to audit.  Have a anonymous token that identifies the grower.  It could be a hash of the driver license number.  The other part is a “cannabis credit” this represents a some amount of marijuana.  Only valid credit is allowed into the system.
-
-I am asking the open source community to help define and program this project.
+﻿Oregon Marijuana Matrix
+OMM
+This is an economic model that could be used define the economic realities of Oregon marijuana. 
+It uses technology and economics to create a a system that is easy to use, secure, and trusted. The main idea is to use economics and incentives to audit the grow and flow of marijuana in Oregon. Cannaudit is an Open Source protocol and library that uses Anonymous Chain Cryptography ACC, a form of crypto-currency, like Bitcoin, to do the auditing.   
+The Oregon Marijuana Matrix is a matrix of Medical v. Recreational and Personal v. Commercial marijuana with illegal and hemp activities (Measure91).  This model tries to break Oregon Marijuana into components and flow making analysis easier.
+![alt tag](http:docs/OregonMarijuanaMatrix)
 

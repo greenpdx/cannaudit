@@ -1,0 +1,292 @@
+<InsightMakerModel>
+<root>
+<mxCell id="0"/>
+<mxCell id="1" parent="0"/>
+<Setting Note="" Version="36" TimeLength="20" TimeStart="0" TimeStep="1" TimeUnits="Years" StrictUnits="true" StrictLinks="true" StrictAgentResolution="true" Units="" HiddenUIGroups="Validation,User Interface" SolutionAlgorithm="RK1" BackgroundColor="white" Throttle="1" Macros="" SensitivityPrimitives="" SensitivityRuns="50" SensitivityBounds="50, 80, 95, 100" SensitivityShowRuns="false" article="{&quot;comments&quot;:true, &quot;facebookUID&quot;: &quot;&quot;}" StyleSheet="{}" id="2">
+<mxCell parent="1" vertex="1" visible="0">
+<mxGeometry x="20" y="20" width="80" height="40" as="geometry"/>
+</mxCell>
+</Setting>
+<Display name="Default Display" Note="" Type="Time Series" xAxis="Time (%u)" yAxis="%o" ThreeDimensional="false" Primitives="55,57,58,59,60,61,64,72,77,78,83,86,87,103,114" AutoAddPrimitives="true" ScatterplotOrder="X Primitive, Y Primitive" Image="Display" yAxis2="" Primitives2="" showMarkers="false" showLines="true" showArea="false" legendPosition="None" id="3">
+<mxCell style="roundImage;image=/builder/images/DisplayFull.png;" parent="1" vertex="1" visible="0">
+<mxGeometry x="50" y="20" width="64" height="64" as="geometry"/>
+</mxCell>
+</Display>
+<Stock name="Medical Commercial" Note="" InitialValue="100" StockMode="Store" Delay="10" Volume="100" NonNegative="true" Units="Unitless" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="true" SliderMax="100" SliderMin="0" SliderStep="" Image="None" FlipHorizontal="false" FlipVertical="false" LabelPosition="Middle" id="55">
+<mxCell style="stock" parent="1" vertex="1">
+<mxGeometry x="310" y="200" width="100" height="40" as="geometry"/>
+</mxCell>
+</Stock>
+<Stock name="Medical Personal" Note="" InitialValue="0" StockMode="Store" Delay="10" Volume="100" NonNegative="false" Units="Unitless" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" Image="None" FlipHorizontal="false" FlipVertical="false" LabelPosition="Middle" id="57">
+<mxCell style="stock" parent="1" vertex="1">
+<mxGeometry x="310" y="100" width="100" height="40" as="geometry"/>
+</mxCell>
+</Stock>
+<Stock name="Commercial Receation" Note="" InitialValue="0" StockMode="Store" Delay="10" Volume="100" NonNegative="false" Units="Unitless" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" Image="None" FlipHorizontal="false" FlipVertical="false" LabelPosition="Middle" id="58">
+<mxCell style="stock" parent="1" vertex="1">
+<mxGeometry x="310" y="250" width="100" height="40" as="geometry"/>
+</mxCell>
+</Stock>
+<Stock name="Personal Receation" Note="" InitialValue="0" StockMode="Store" Delay="10" Volume="100" NonNegative="false" Units="Unitless" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" Image="None" FlipHorizontal="false" FlipVertical="false" LabelPosition="Middle" id="59">
+<mxCell style="stock" parent="1" vertex="1">
+<mxGeometry x="310" y="335" width="100" height="40" as="geometry"/>
+</mxCell>
+</Stock>
+<Stock name="Use" Note="" InitialValue="0" StockMode="Store" Delay="10" Volume="100" NonNegative="false" Units="Unitless" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" Image="None" FlipHorizontal="false" FlipVertical="false" LabelPosition="Middle" id="60">
+<mxCell style="stock" parent="1" vertex="1">
+<mxGeometry x="880" y="150" width="100" height="40" as="geometry"/>
+</mxCell>
+</Stock>
+<Stock name="OMMP" Note="" InitialValue="0" StockMode="Store" Delay="10" Volume="100" NonNegative="false" Units="Unitless" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" Image="None" FlipHorizontal="false" FlipVertical="false" LabelPosition="Middle" id="61">
+<mxCell style="stock" parent="1" vertex="1">
+<mxGeometry x="680" y="70" width="70" height="70" as="geometry"/>
+</mxCell>
+</Stock>
+<Stock name="OLCC" Note="" InitialValue="0" StockMode="Store" Delay="10" Volume="100" NonNegative="false" Units="Unitless" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" Image="None" FlipHorizontal="false" FlipVertical="false" LabelPosition="Middle" id="64">
+<mxCell style="stock" parent="1" vertex="1">
+<mxGeometry x="680" y="250" width="70" height="40" as="geometry"/>
+</mxCell>
+</Stock>
+<Stock name="Process Audit" Note="" InitialValue="0" StockMode="Store" Delay="10" Volume="100" NonNegative="false" Units="Unitless" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" Image="None" FlipHorizontal="false" FlipVertical="false" LabelPosition="Middle" id="72">
+<mxCell style="stock" parent="1" vertex="1">
+<mxGeometry x="540" y="153" width="70" height="247" as="geometry"/>
+</mxCell>
+</Stock>
+<Variable name="MedCom grow" Note="" Equation="[Price]*[Equlibrim]" Units="Unitless" MaxConstraintUsed="true" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="true" SliderMax="5000" SliderMin="0" SliderStep="" Image="None" FlipHorizontal="false" FlipVertical="false" LabelPosition="Middle" id="77">
+<mxCell style="variable" parent="1" vertex="1">
+<mxGeometry x="160" y="140" width="120" height="50" as="geometry"/>
+</mxCell>
+</Variable>
+<Variable name="Price" Note="" Equation="0" Units="Unitless" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" Image="None" FlipHorizontal="false" FlipVertical="false" LabelPosition="Middle" id="78">
+<mxCell style="variable" parent="1" vertex="1">
+<mxGeometry y="210" width="120" height="50" as="geometry"/>
+</mxCell>
+</Variable>
+<Link name="Link" Note="" BiDirectional="false" id="79">
+<mxCell style="link" parent="1" source="78" target="77" edge="1">
+<mxGeometry width="100" height="100" as="geometry">
+<mxPoint y="100" as="sourcePoint"/>
+<mxPoint x="100" as="targetPoint"/>
+</mxGeometry>
+</mxCell>
+</Link>
+<Link name="Link" Note="" BiDirectional="false" id="80">
+<mxCell style="link" parent="1" source="77" target="105" edge="1">
+<mxGeometry y="70" width="100" height="100" as="geometry">
+<mxPoint y="170" as="sourcePoint"/>
+<mxPoint x="100" y="70" as="targetPoint"/>
+</mxGeometry>
+</mxCell>
+</Link>
+<Variable name="MedPer grow" Note="" Equation="0" Units="Unitless" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" Image="None" FlipHorizontal="false" FlipVertical="false" LabelPosition="Middle" id="83">
+<mxCell style="variable" parent="1" vertex="1">
+<mxGeometry x="160" y="50" width="120" height="50" as="geometry"/>
+</mxCell>
+</Variable>
+<Link name="Link" Note="" BiDirectional="false" id="84">
+<mxCell style="link" parent="1" source="78" target="83" edge="1">
+<mxGeometry width="100" height="100" as="geometry">
+<mxPoint y="100" as="sourcePoint"/>
+<mxPoint x="100" as="targetPoint"/>
+</mxGeometry>
+</mxCell>
+</Link>
+<Link name="Link" Note="" BiDirectional="false" id="85">
+<mxCell style="link" parent="1" source="83" target="104" edge="1">
+<mxGeometry x="-10" y="-115" width="100" height="100" as="geometry">
+<mxPoint x="-10" y="-15" as="sourcePoint"/>
+<mxPoint x="90" y="-115" as="targetPoint"/>
+</mxGeometry>
+</mxCell>
+</Link>
+<Variable name="PerRec" Note="" Equation="0" Units="Unitless" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" Image="None" FlipHorizontal="false" FlipVertical="false" LabelPosition="Middle" id="86">
+<mxCell style="variable" parent="1" vertex="1">
+<mxGeometry x="160" y="375" width="120" height="50" as="geometry"/>
+</mxCell>
+</Variable>
+<Variable name="ComRec" Note="" Equation="0" Units="Unitless" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" Image="None" FlipHorizontal="false" FlipVertical="false" LabelPosition="Middle" id="87">
+<mxCell style="variable" parent="1" vertex="1">
+<mxGeometry x="150" y="290" width="120" height="50" as="geometry"/>
+</mxCell>
+</Variable>
+<Link name="Link" Note="" BiDirectional="false" id="88">
+<mxCell style="link" parent="1" source="78" target="86" edge="1">
+<mxGeometry width="100" height="100" as="geometry">
+<mxPoint y="100" as="sourcePoint"/>
+<mxPoint x="100" as="targetPoint"/>
+</mxGeometry>
+</mxCell>
+</Link>
+<Link name="Link" Note="" BiDirectional="false" id="89">
+<mxCell style="link" parent="1" source="78" target="87" edge="1">
+<mxGeometry width="100" height="100" as="geometry">
+<mxPoint y="100" as="sourcePoint"/>
+<mxPoint x="100" as="targetPoint"/>
+</mxGeometry>
+</mxCell>
+</Link>
+<Link name="Link" Note="" BiDirectional="false" id="90">
+<mxCell style="link" parent="1" source="87" target="106" edge="1">
+<mxGeometry x="-10" y="-75" width="100" height="100" as="geometry">
+<mxPoint x="-10" y="25" as="sourcePoint"/>
+<mxPoint x="90" y="-75" as="targetPoint"/>
+</mxGeometry>
+</mxCell>
+</Link>
+<Link name="Link" Note="" BiDirectional="false" id="91">
+<mxCell style="link" parent="1" source="86" target="107" edge="1">
+<mxGeometry x="-10" y="65" width="100" height="100" as="geometry">
+<mxPoint x="-10" y="165" as="sourcePoint"/>
+<mxPoint x="90" y="65" as="targetPoint"/>
+</mxGeometry>
+</mxCell>
+</Link>
+<Flow name="MedCom" Note="" FlowRate="0" OnlyPositive="true" TimeIndependent="false" Units="Unitless" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" id="92">
+<mxCell style="flow" parent="1" source="55" target="61" edge="1">
+<mxGeometry width="100" height="100" as="geometry">
+<mxPoint y="100" as="sourcePoint"/>
+<mxPoint x="100" as="targetPoint"/>
+<Array as="points">
+<mxPoint x="450" y="90"/>
+</Array>
+<mxPoint y="-52" as="offset"/>
+</mxGeometry>
+</mxCell>
+</Flow>
+<Flow name="Flow" Note="" FlowRate="0" OnlyPositive="true" TimeIndependent="false" Units="Unitless" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" id="93">
+<mxCell style="flow" parent="1" source="57" target="61" edge="1">
+<mxGeometry width="100" height="100" as="geometry">
+<mxPoint y="100" as="sourcePoint"/>
+<mxPoint x="100" as="targetPoint"/>
+<Array as="points">
+<mxPoint x="490" y="110"/>
+</Array>
+</mxGeometry>
+</mxCell>
+</Flow>
+<Flow name="2Process" Note="" FlowRate="0" OnlyPositive="true" TimeIndependent="false" Units="Unitless" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" id="94">
+<mxCell style="flow" parent="1" source="55" target="72" edge="1">
+<mxGeometry y="-36" width="100" height="100" as="geometry">
+<mxPoint y="64" as="sourcePoint"/>
+<mxPoint x="100" y="-36" as="targetPoint"/>
+<Array as="points">
+<mxPoint x="520" y="190"/>
+</Array>
+</mxGeometry>
+</mxCell>
+</Flow>
+<Flow name="Flow" Note="" FlowRate="0" OnlyPositive="true" TimeIndependent="false" Units="Unitless" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" id="95">
+<mxCell style="flow" parent="1" source="57" target="72" edge="1">
+<mxGeometry width="100" height="100" as="geometry">
+<mxPoint y="100" as="sourcePoint"/>
+<mxPoint x="100" as="targetPoint"/>
+<Array as="points">
+<mxPoint x="470" y="170"/>
+</Array>
+</mxGeometry>
+</mxCell>
+</Flow>
+<Flow name="Flow" Note="" FlowRate="0" OnlyPositive="true" TimeIndependent="false" Units="Unitless" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" id="96">
+<mxCell style="flow" parent="1" source="72" target="61" edge="1">
+<mxGeometry width="100" height="100" as="geometry">
+<mxPoint y="100" as="sourcePoint"/>
+<mxPoint x="670" y="140" as="targetPoint"/>
+<Array as="points"/>
+</mxGeometry>
+</mxCell>
+</Flow>
+<Flow name="Flow" Note="" FlowRate="0" OnlyPositive="true" TimeIndependent="false" Units="Unitless" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" id="97">
+<mxCell style="flow" parent="1" source="59" target="72" edge="1">
+<mxGeometry width="100" height="100" as="geometry">
+<mxPoint y="100" as="sourcePoint"/>
+<mxPoint x="100" as="targetPoint"/>
+</mxGeometry>
+</mxCell>
+</Flow>
+<Flow name="Flow" Note="" FlowRate="0" OnlyPositive="true" TimeIndependent="false" Units="Unitless" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" id="98">
+<mxCell style="flow" parent="1" source="58" target="72" edge="1">
+<mxGeometry width="100" height="100" as="geometry">
+<mxPoint y="100" as="sourcePoint"/>
+<mxPoint x="100" as="targetPoint"/>
+</mxGeometry>
+</mxCell>
+</Flow>
+<Flow name="Flow" Note="" FlowRate="0" OnlyPositive="true" TimeIndependent="false" Units="Unitless" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" id="99">
+<mxCell style="flow" parent="1" source="72" target="64" edge="1">
+<mxGeometry width="100" height="100" as="geometry">
+<mxPoint y="100" as="sourcePoint"/>
+<mxPoint x="100" as="targetPoint"/>
+</mxGeometry>
+</mxCell>
+</Flow>
+<Flow name="Flow" Note="" FlowRate="0" OnlyPositive="true" TimeIndependent="false" Units="Unitless" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" id="102">
+<mxCell style="flow" parent="1" source="57" target="60" edge="1">
+<mxGeometry width="100" height="100" as="geometry">
+<mxPoint y="100" as="sourcePoint"/>
+<mxPoint x="100" as="targetPoint"/>
+<Array as="points">
+<mxPoint x="610" y="50"/>
+</Array>
+</mxGeometry>
+</mxCell>
+</Flow>
+<Variable name="OMMP Price" Note="" Equation="0" Units="Unitless" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" Image="None" FlipHorizontal="false" FlipVertical="false" LabelPosition="Middle" id="103">
+<mxCell style="variable" parent="1" vertex="1">
+<mxGeometry x="680" y="160" width="120" height="50" as="geometry"/>
+</mxCell>
+</Variable>
+<Flow name="Flow" Note="" FlowRate="0" OnlyPositive="true" TimeIndependent="false" Units="Unitless" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" id="104">
+<mxCell style="flow" parent="1" target="57" edge="1">
+<mxGeometry width="100" height="100" as="geometry">
+<mxPoint x="150" y="119.99999996274711" as="sourcePoint"/>
+<mxPoint y="100" as="targetPoint"/>
+</mxGeometry>
+</mxCell>
+</Flow>
+<Flow name="Flow" Note="" FlowRate="0" OnlyPositive="true" TimeIndependent="false" Units="Unitless" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" id="105">
+<mxCell style="flow" parent="1" target="55" edge="1">
+<mxGeometry y="-20" width="100" height="100" as="geometry">
+<mxPoint x="180" y="220" as="sourcePoint"/>
+<mxPoint y="80" as="targetPoint"/>
+</mxGeometry>
+</mxCell>
+</Flow>
+<Flow name="Flow" Note="" FlowRate="0" OnlyPositive="true" TimeIndependent="false" Units="Unitless" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" id="106">
+<mxCell style="flow" parent="1" target="58" edge="1">
+<mxGeometry width="100" height="100" as="geometry">
+<mxPoint x="180" y="269.9999999996416" as="sourcePoint"/>
+<mxPoint y="100" as="targetPoint"/>
+</mxGeometry>
+</mxCell>
+</Flow>
+<Flow name="Flow" Note="" FlowRate="0" OnlyPositive="true" TimeIndependent="false" Units="Unitless" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" id="107">
+<mxCell style="flow" parent="1" target="59" edge="1">
+<mxGeometry width="100" height="100" as="geometry">
+<mxPoint x="190" y="355" as="sourcePoint"/>
+<mxPoint y="100" as="targetPoint"/>
+</mxGeometry>
+</mxCell>
+</Flow>
+<Variable name="OLCC Rules" Note="" Equation="0" Units="Unitless" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" Image="None" FlipHorizontal="false" FlipVertical="false" LabelPosition="Middle" id="114">
+<mxCell style="variable" vertex="1" parent="1">
+<mxGeometry x="655" y="350" width="120" height="50" as="geometry"/>
+</mxCell>
+</Variable>
+<Link name="Link" Note="" BiDirectional="false" id="115">
+<mxCell style="link" edge="1" parent="1" source="64" target="114">
+<mxGeometry width="100" height="100" as="geometry">
+<mxPoint y="100" as="sourcePoint"/>
+<mxPoint x="100" as="targetPoint"/>
+</mxGeometry>
+</mxCell>
+</Link>
+<Link name="Link" Note="" BiDirectional="false" id="116">
+<mxCell style="link" edge="1" parent="1" source="114" target="72">
+<mxGeometry width="100" height="100" as="geometry">
+<mxPoint y="100" as="sourcePoint"/>
+<mxPoint x="100" as="targetPoint"/>
+</mxGeometry>
+</mxCell>
+</Link>
+</root>
+</InsightMakerModel>

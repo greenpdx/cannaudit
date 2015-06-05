@@ -1,6 +1,8 @@
 ﻿#Oregon Marijuana Matrix
 ###OMM
 
+####Now with simulation: https://insightmaker.com/insight/33695/OMM, PreAlpha####
+
 * Technology and Market Economics to follow the flow of marijuana.
 * Incentives, not regulations to increase compliance and reduce crime.
 * Easy to use

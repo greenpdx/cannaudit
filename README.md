@@ -1,13 +1,16 @@
-# Oregon Marijuana Matrix
+# National Marijuana Matrix
 
-### OMM
+### NMM
+
+## How to track Cannabis across different legal jurdictions? Have a chain of trust. 
 
 When cannabis goes national, There needs to be a way to track cannabis nationally and have AAA,(Authentication, authorization, and accounting) managed at the local level (State, city, company, group) .
 
-Oregon Marijuana Matrix, a flow graph for the nation.  Using a block-chain WoT (Web of Trust) a national cannabis policy can be regulated at the local level.  There needs to be a common way for all regulatory agencies to coordinate between each other and still maintain local AAA.  But the most important thing is, it is Open Source System.  
+National Marijuana Matrix, a flow graph for the nation.  Using a block-chain WoT (Web of Trust) a national cannabis policy can be regulated at the local level.  There needs to be a common way for all regulatory agencies to coordinate between each other and still maintain local AAA.  But the most important thing is, it is Open Source System.  
 
 The OMM provides a model and simulation of the flow per regulatory agency that can be combined into a single flow graph. 
 
+## ACCA Anonymous Chain Crypto Accounting
 Using ACCA(Anonymous Chain Crypto Accounting) a WoT protocol creates a digital regulatory area that they control.  This allows states, cities and organizations to define what is allowed in their jurisdiction.  The protocol is defined to scale and maintains privacy of the person.  Another feature is because it uses a distributed keys, there is not a single server that is hacked.  The only public interface for the agencies are signed keys. The server and server data are public.  Even businesses can run their own WoT. 
 
 
